@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegularBold</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicon.jpg">
+
+    <link rel="stylesheet" href="css/reset_.css">
+    <link rel="stylesheet" href="css/index_.css">
+    <link rel="stylesheet" href="css/index_tablet_.css">
+    <link rel="stylesheet" href="css/index_mobile_.css">
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script>
+        $(window).on('scroll resize',function(){
+            var topBtn = $(this).scrollTop();
+            if(topBtn>120){
+                $('.top').fadeIn(300);
+            }else{
+                $('.top').fadeOut(300);
+            };
+        });
+
+        $(function(){
+            $('.top').click(function(){
+                $('html, body').animate({
+                    scrollTop: 0
+                },500);
+            });
+
+            $('.menu').click(function(){
+                $('.gnb').slideToggle(600);
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <header class="clear">
+        <div class="inner">
+            <h1><a href="#"><img src="images/logo.jpg" alt="레큘러볼드 로고"></a></h1>
+
+            <nav class="gnb clear">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">story</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="sns">
+                <a href="#"><img src="images/icon_insta.png" alt="insta버튼"></a>
+                <a href="#"><img src="images/icon_youtube.png" alt="yuotube버튼"></a>
+            </div>
+
+            <button class="menu">
+                <img src="images/button.png" alt="태블릿 모바일용 메뉴버튼">
+            </button>
+        </div>
+    </header>
+
+    <section>
+        <article class="work">
+            <div class="work-des">
+                <h2>Regular<b>Bold</b> is a leading contender out of korea creative groups, Wewere established by the
+                    excellent directors in diverse sectors.</h2>
+                <h2 class="des-ko">Regular<b>Bold</b>는 다양한 분야의 뛰어난 디렉터들이 만든 <strong>국내 최고의 크리에이티브 그룹</strong>입니다.</h2>
+            </div>
+
+            <div class="notice-btn">
+                <a href="#">채용공지</a>
+            </div>
+        </article>
+
+        <article class="about">
+            <div class="about-img clear">
+                <a href="#"><img src="images/01_brand.jpg" alt=""></a>
+                <a href="#"><img src="images/02_uiux.jpg" alt=""></a>
+                <a href="#"><img src="images/03_interior.jpg" alt=""></a>
+                <a href="#"><img src="images/04_pictures.jpg" alt=""></a>
+                <a href="#"><img src="images/05_printpackage.jpg" alt=""></a>
+                <a href="#"><img src="images/06_exhibition.jpg" alt=""></a>
+                <a href="#"><img src="images/07_bookproduct.jpg" alt=""></a>
+                <a href="#"><img src="images/08_illustgraphic.jpg" alt=""></a>
+            </div>
+
+            <div class="about-des">
+                <h2>about Regular<b>Bold</b></h2>
+
+                <p>it is a total creative platform which responds to the brand, contents, digital<br>
+                    marketing and times of convergence.</p>
+
+                <div class="info-btn"><a href="#">More Info</a></div>
+            </div>
+        </article>
+
+        <article class="news">
+            <div class="news-des">
+                <h2>Our News</h2>
+                <p>고객의 브랜드에 통합적으로 반응하고 함께하는 Regular<b>Bold</b>입니다.</p>
+            </div>
+
+            <div class="news-box clear">
+                <div class="box">
+                    <img src="images/recruit.jpg" alt="레귤러볼드 채용공지">
+
+                    <div class="box-title">
+                        <h3>&lsqb;Recruit&rsqb;RegularBold 채용공지</h3>
+
+                        <p>2025년 3월 2일</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/degital_media.jpg" alt="">
+
+                    <div class="box-title">
+                        <h3>디지털 미디어 디자인 감정과 이성의 경계에 서서</h3>
+
+                        <p>2025년 3월 2일</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/news.jpg" alt="">
+
+                    <div class="box-title">
+                        <h3>2017년 웹트랜드 컴퍼런스 &apos;Trend Insight & Outsight&apos;</h3>
+
+                        <p>2025년 1월 14일</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="contact">
+            <h2>Contact</h2>
+            <p>고객의 브랜드에 통합적으로 반응하고 함께하는 Regular<b>Bold</b>입니다.</p>
+
+            <div class="contact-btn"><a href="#">More Info</a></div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="inner clear">
+            <div class="foot-list">
+                <h2>copyright</h2>
+                <p>Powered by RegularBold</p>
+            </div>
+
+            <div class="foot-list">
+                <h2>follow</h2>
+                <p><a href="#">Instagram</a></p>
+            </div>
+
+            <div class="foot-list">
+                <h2>contact</h2>
+                <p>Email &sol; hrllo@regularbold.co.kr</p>
+                <p>Tel &sol; 02 123 4569</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="top">
+        <img src="images/top.jpg" alt="화면 맨 위로">
+    </button>
+</body>
+
+</html>

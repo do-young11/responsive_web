@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@media all and (max-width: 1024px) {
+
+    .inner {
+        width: calc(100% - 100px);
+    }
+
+    header .gnb,
+    header .sns {
+        display: none;
+    }
+
+    /* 태블릿 모바일 용 메뉴 버튼 */
+    .menu {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10%;
+        display: block;
+    }
+
+    .menu img {
+        width: 100%;
+    }
+
+    header .gnb {
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        top: 100%;
+    }
+
+    header .gnb ul li {
+        display: block;
+        border-bottom: 2px solid #fff;
+        width: 100%;
+    }
+
+    header .gnb ul li~li {
+        margin: 0;
+    }
+
+    header .gnb ul li a {
+        color: #fff;
+    }
+
+    /* ************************************** */
+
+    section .work {
+        width: calc(100% - 100px);
+        margin: 0 auto;
+        height: 500px;
+        background: url(../images/rb_logo.png) no-repeat right/50%;
+    }
+
+    section .work .work-des {
+        width: 50%;
+    }
+
+    section .work .work-des h2 {
+        line-height: 1.4;
+        font-size: 1.4rem;
+    }
+
+    section .about {
+        width: calc(100% - 100px);
+        margin-bottom: 60px;
+        padding-bottom: 180px;
+    }
+
+    .about-img a {
+        float: left;
+        width: 49%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    .about-img a:nth-child(odd) {
+        margin-left: 0;
+    }
+}

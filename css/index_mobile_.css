@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+@media all and (max-width: 768px) {
+    header {
+        height: 100px;
+    }
+
+    .inner {
+        width: calc(100% - 50px);
+    }
+
+    header h1 a img {
+        height: 50px;
+    }
+
+    section .work {
+        width: calc(100% - 50px);
+        padding: 50px 0 140px;
+        background-size: auto 300px;
+        background-position: center bottom;
+        margin-bottom: 60px;
+    }
+
+    section .work .work-des {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section .work .work-des h2 {
+        font-size: 1.375rem;
+    }
+
+    section .work .notice-btn a {
+        font-size: 1rem;
+    }
+
+    section .about {
+        width: calc(100% - 50px);
+        padding-bottom: 120px;
+        background-size: auto 120px;
+    }
+
+    section .about .about-img {
+        margin-bottom: 60px;
+    }
+
+    .about .about-img a {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 4%;
+    }
+
+    section .about .about-des h2 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+
+    section .about .about-des p {
+        font-size: 1.25rem;
+        margin-bottom: 40px;
+
+    }
+
+    section .about .about-des .info-btn a {
+        font-size: 1rem;
+    }
+
+    section .news {
+        width: calc(100% - 50px);
+    }
+
+    section .news .news-des {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    section .news .news-des h2 {
+        font-size: 1.75rem;
+    }
+
+    section .news .news-des p {
+        font-size: 1.125rem;
+    }
+
+    section .news .news-box .box {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    section .news .news-box .box .box-title h3 {
+        font-size: 1.125rem;
+        margin-bottom: 30px;
+    }
+
+    section .news .news-box .box .box-title p {
+        font-size: 1rem;
+    }
+
+    section .contact {
+        height: 300px;
+    }
+
+    section .contact p {
+        font-size: 1.125rem;
+    }
+
+    section .contact .contact-btn a {
+        font-size: 1rem;
+    }
+
+    footer .foot-list {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
